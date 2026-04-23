@@ -1,0 +1,1774 @@
+{
+	"intents": [
+		{
+			"content": [
+				{
+					"message": "¡Hola! Soy Lobisti 🐺, la mascota de ISTII y tu asistente virtual. Puedo orientarte sobre admisiones, plan de estudios, campo laboral, información del campus y detalles generales de la carrera. ¿En qué te puedo ayudar hoy?"
+				}
+			],
+			"urlPatternList": [],
+			"category": "welcome_event",
+			"name": "Default Welcome Intent",
+			"trainingPhrases": [],
+			"languageCode": "es",
+			"userInformation": "",
+			"prompt": ""
+		},
+		{
+			"content": [
+				{
+					"message": "¡Anota estas fechas en tu calendario! 🐺🗓️ Aquí tienes los días clave para el proceso de admisión BUAP 2026:\n\n📅 2 al 7 de marzo → Registro para programas con requisitos adicionales.\n📅 3 de marzo al 16 de abril → Cuestionario de contexto.\n📅 21 al 28 de abril → Registro general de aspirantes.\n📅 21 al 29 de abril → Descarga y pago de póliza.\n📅 18 de julio → Publicación de resultados.\n\n🎓 ¡Un súper beneficio de ISTII! Al ser una carrera con amplia disponibilidad de matrícula, contamos con pase directo. Esto significa que no necesitas presentar el examen de admisión (puedes omitir las fechas de junio). Solo debes completar todos tus pasos de registro correctamente y ¡listo!\n\nTodo el proceso es en línea. Consulta los detalles en admision.buap.mx y ¡no dejes nada para el último momento! ¿Te puedo ayudar con algo más del proceso?"
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "Fechas de admision",
+			"trainingPhrases": [
+				"¿Cuándo es el periodo de admisión",
+				"¿Cuándo es el siguiente periodo?",
+				"¿Cuándo sale la convocatoria de la BUAP?",
+				"¿En qué fechas me puedo inscribir?",
+				"¿Cuándo empiezan los registros para la carrera?",
+				"Fechas de admisión"
+			],
+			"languageCode": "es",
+			"userInformation": "",
+			"prompt": ""
+		},
+		{
+			"content": [
+				{
+					"message": "¡Es más sencillo de lo que parece! 🐺 Para aplicar a ISTII necesitas tener a la mano lo siguiente:\n\n🎓 Bachillerato: Concluido o por estar por terminar (con un promedio mínimo de 6.0).\n📄 Documentos básicos: CURP e identificación oficial.\n📸 Foto digital y un correo electrónico que uses frecuentemente.\n💻 Pasos extra: Completar tu cuestionario de contexto en línea y realizar el pago de tu ficha.\n\nTodo el proceso de registro se hace directamente en el portal oficial: autoservicios.buap.mx.\n\n¿Tienes alguna duda con el proceso paso a paso, o te gustaría saber cómo y cuándo consultar tus resultados?"
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "REQUISITOS",
+			"trainingPhrases": [
+				"¿Qué necesito para sacar mi ficha?",
+				"que papeles necesito",
+				"Papeles para el registro",
+				"requisitos",
+				"Requisitos de admisión",
+				"¿Qué piden para la carrera?",
+				"¿Qué piden para entrar a la carrera?",
+				"¿Qué documentos necesito?",
+				"¿Qué documentos necesito para inscribirme?",
+				"¿Cuáles son los requisitos de la buap?",
+				"¿Cuáles son los requisitos de la carrera?",
+				"¿Cuáles son los requisitos?"
+			],
+			"languageCode": "es",
+			"userInformation": "",
+			"prompt": ""
+		},
+		{
+			"content": [
+				{
+					"message": "¡Hola de nuevo! 🐺 Aquí sigo. ¿En qué más te puedo ayudar? Recuerda que me puedes preguntar sobre admisiones, requisitos, fechas o información de la carrera de ISTII."
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "Saludo nuevo",
+			"trainingPhrases": [
+				"ahi estas",
+				"estas ahi",
+				"sigues ahi",
+				"Saludos",
+				"Hola Lobisti",
+				"que pedo",
+				"Qué onda",
+				"Qué tal",
+				"Buenas noches",
+				"Buenas tardes",
+				"Buenos días",
+				"Hola"
+			],
+			"languageCode": "es",
+			"userInformation": "",
+			"prompt": ""
+		},
+		{
+			"content": [
+				{
+					"message": "¡Afilando mis garras virtuales y organizando la información de ISTII! 🐺 Mi trabajo de tiempo completo es ser el mejor asistente para los futuros estudiantes. ¿Te puedo ayudar con información sobre las admisiones o el plan de estudios?"
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "que rollo",
+			"trainingPhrases": [
+				"que rollo",
+				"¿Qué haces por aquí?",
+				"¿Qué cuentas?",
+				"¿En qué andas?",
+				"¿A qué te dedicas?",
+				"¿Qué estás haciendo?",
+				"¿Qué haces?"
+			],
+			"languageCode": "es",
+			"userInformation": "",
+			"prompt": ""
+		},
+		{
+			"content": [
+				{
+					"message": "¡Soy un lobo 100% virtual impulsado por inteligencia artificial! 🐺💻 Fui diseñado especialmente para ser el asistente de la carrera de ISTII y darte las respuestas más rápidas. ¿Te gustaría saber algo sobre nuestras materias, el campo laboral o las admisiones?"
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "quien eres",
+			"trainingPhrases": [
+				"que animal eres",
+				"¿Eres real o un programa?",
+				"tienes sentimientos",
+				"¿Eres inteligencia artificial?",
+				"¿Eres un bot?",
+				"¿Hablo con una persona?",
+				"eres o te haces",
+				"eres un lobo",
+				"eres un perro",
+				"¿Eres humano?",
+				"que eres",
+				"quien eres",
+				"¿Eres un robot?"
+			],
+			"languageCode": "es",
+			"userInformation": "",
+			"prompt": ""
+		},
+		{
+			"content": [
+				{
+					"message": "¡Qué emoción que quieras unirte a la manada de ISTII!🐺 Para entrar manejamos el proceso de admisión paso a paso de la BUAP. Puedes preguntarme específicamente sobre: cuándo es el periodo, cómo es el proceso, cuál es el precio, los requisitos o ver la convocatoria oficial de la buap en el enlace de abajo. ¿Qué duda te resuelvo primero?"
+				},
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "11",
+						"payload": [
+							{
+								"name": "Admisión BUAP 2026",
+								"action": {
+									"type": "link",
+									"url": "https://admision.buap.mx/sites/default/files/Admision_2026/2.Nivel_Superior/Convocatoria_de_registro_nivel_superior_2026.pdf"
+								}
+							}
+						]
+					}
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "¿Cómo es el proceso de admisión?",
+			"trainingPhrases": [
+				"Quiero información sobre la admisión",
+				"Me interesa entrar a la carrera",
+				"Quiero saber sobre el ingreso a ISTII",
+				"Dime sobre las admisiones",
+				"¿Cómo entro a la carrera?",
+				"¿Cómo puedo ser parte de la carrera?",
+				"Información de nuevo ingreso",
+				"admision"
+			],
+			"languageCode": "es",
+			"userInformation": "",
+			"prompt": ""
+		},
+		{
+			"content": [
+				{
+					"message": "¡Excelente y con mucha energía, listo para aullar! 🐺 Gracias por preguntar. Estoy aquí al 100% para ayudarte a resolver cualquier duda sobre la carrera de ISTII. ¿En qué te puedo orientar hoy?"
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "como estas",
+			"trainingPhrases": [
+				"¿Como andas?",
+				"¿Todo bien?",
+				"¿Que tal tu dia?",
+				"¿Como te va?",
+				"¿Quee tal estas?",
+				"¿Como estas?",
+				"como estas"
+			],
+			"languageCode": "es",
+			"userInformation": "",
+			"prompt": ""
+		},
+		{
+			"content": [
+				{
+					"message": "Fui creado por el equipo de desarrollo Virtual Riders! 🐺💻 Ellos me programaron especialmente para ser el asistente virtual de nuestra carrera. ¿Te puedo ayudar con información sobre admisiones o el plan de estudios?"
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "de donde saliste",
+			"trainingPhrases": [
+				"de donde saliste",
+				"quien es tu desarrollado",
+				"quien es tu creador",
+				"que te hizo",
+				"quien te hizo",
+				"quien te programo",
+				"quien te creo"
+			],
+			"languageCode": "es",
+			"userInformation": "",
+			"prompt": ""
+		},
+		{
+			"content": [
+				{
+					"message": "¡Respira tranquilo! 🐺 Aquí viene la mejor parte de elegir ISTII: no tienes que preocuparte por el examen.\n\nAl tener pase directo, tu lugar está asegurado siempre y cuando cumplas con todos los pasos del registro, entregues tus documentos digitales y pagues tu póliza. ¡Te ahorras los nervios del examen! 😎 ¿Te gustaría saber cuáles son las fechas clave del proceso?"
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "examen",
+			"trainingPhrases": [
+				"hay guia para el examen",
+				"que temas debo estudiar",
+				"cuantas preguntas tiene el examen",
+				"esta dificil el examen de la buap",
+				"que viene en el examen",
+				"examen de admision",
+				"examen",
+				"como es el examen de admision"
+			],
+			"languageCode": "es",
+			"userInformation": "",
+			"prompt": ""
+		},
+		{
+			"content": [
+				{
+					"message": "Buena pregunta! 🐺 Te cuento: aquí en el Complejo Regional Centro, Sede San José Chiapa, además de ISTII, contamos con otras dos carreras:\n\n⚙️ Ingeniería en Automatización y Autotrónica (IAA)\n🏭 Ingeniería en Procesos y Gestión Industrial (IPGI)\n\nAl igual que ISTII, ¡ambas tienen el gran beneficio de pase directo! 🚀\n\nSin embargo, como soy el asistente especializado de ISTII, lamentablemente no cuento con información detallada sobre los planes de estudio o requisitos específicos de esas otras carreras.\n\nMi fuerte es todo lo relacionado con Sistemas y Tecnologías de la Información Industrial. ¿Te gustaría que te cuente más sobre lo que aprenderás con nosotros o prefieres ver el campo laboral de ISTII?\""
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "solo tienen istii",
+			"trainingPhrases": [
+				"solo tienen istii",
+				"y no hay mas carreras",
+				"hay administracion de empresas",
+				"hay administracion",
+				"hay arquitectura",
+				"es lo mismo para otra carrera",
+				"quiero otra carrera",
+				"que otras opciones hay",
+				"tienen derecho",
+				"que mas carreras hay",
+				"y no hay otras carreras",
+				"hay medicina",
+				"requisitos para otras carreras",
+				"disenio digital ",
+				"no hay arte"
+			],
+			"languageCode": "es",
+			"userInformation": "",
+			"prompt": ""
+		},
+		{
+			"content": [
+				{
+					"message": "¡Hablemos de costos! 🐺 El derecho al proceso de admisión de la BUAP tiene un precio de $750.00 MXN.\nAquí los detalles importantes que no debes olvidar:\n💸 Monto: $750.00 (Setecientos cincuenta pesos 00/100 M.N.).\n⏰ Fecha límite de pago: Tienes hasta las 15:00 horas del 29 de abril del 2026.\n⚠️ ¡Atención!: No habrá devoluciones bajo ninguna circunstancia, así que asegúrate de completar tus pasos a tiempo.\n\nRecuerda que en ISTII cuentas con pase directo, por lo que este pago cubre tu registro oficial administrativo y no la aplicación de un examen. 🎓\n¿Quieres que te ayude con algo más sobre el registro o los requisitos?"
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "precio examen",
+			"trainingPhrases": [
+				"precio de la ficha",
+				"precio del proceso de admision",
+				"cuanto cuesta el examen",
+				"cuanto cuesta la ficha",
+				"que precio tiene el registro",
+				"cuanto hay que pagar para entrar",
+				"costo de la poliza de admision",
+				"cuanto cuesta entrar a la carrera"
+			],
+			"languageCode": "es",
+			"userInformation": "",
+			"prompt": ""
+		},
+		{
+			"content": [
+				{
+					"message": "¡El momento de celebrar! 🐺🎉 Los resultados de admisión se publican el 18 de julio a partir de las 10:00 horas.\n\nPara consultarlos, sigue estos sencillos pasos:\n1️⃣ Entra a autoservicios.buap.mx.\n2️⃣ Selecciona el apartado de 'Admisión'.\n3️⃣ Ingresa con el usuario y contraseña que registraste durante el proceso.\n\n🎓 Ojo aquí: Recuerda que para ISTII tenemos pase directo. Así que en lugar de ver un puntaje de examen, ahí encontrarás tu confirmación oficial de ingreso para unirte a la manada.\n\n¡Mantente pendiente de la página oficial admision.buap.mx para cualquier actualización! ¿Te puedo ayudar con algo más?"
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "resultados",
+			"trainingPhrases": [
+				"como checo si quede en la carrera",
+				"resultados de admision",
+				"a que hora publican los resultados",
+				"donde veo mis resultados",
+				"como saber si me aceptaron",
+				"cuando salen los resultados"
+			],
+			"languageCode": "es",
+			"userInformation": "",
+			"prompt": ""
+		},
+		{
+			"content": [
+				{
+					"message": "¡Hay muchísimas razones, pero aquí te doy las mejores! 🐺 ISTII es la carrera perfecta si te apasiona la tecnología y quieres un futuro lleno de oportunidades.\n\nAl elegirnos, obtienes:\n1. Alta demanda laboral: Las industrias buscan desesperadamente expertos en nuestras áreas.\n\n2. Excelentes salarios: Es una de las ingenierías mejor pagadas actualmente.\n\n3. Libertad geográfica: ¡Tendrás la posibilidad de trabajar desde cualquier parte del mundo! 🌍💻\n\nBásicamente, te preparamos para el mundo del mañana. ¿Te gustaría saber qué habilidades específicas desarrollarás o prefieres conocer a nuestra planta docente?"
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "porque elegir istii",
+			"trainingPhrases": [
+				"que tiene de bueno isti",
+				"que tiene de bueno istii",
+				"por que me recomiendas",
+				"por que me recomiendas esta ingenieria",
+				"conviene estudiar sistemas industriales",
+				"que ventajas tiene isti",
+				"que ventajas tiene istii",
+				"porque estudiar esta carrera",
+				"porque elegir isti",
+				"porque elegir istii"
+			],
+			"languageCode": "es",
+			"userInformation": "",
+			"prompt": ""
+		},
+		{
+			"content": [
+				{
+					"message": "¡Buena observación! 🐺 Te aclaro: ISTII no se encuentra en CU (Puebla capital).\n\nNuestra casa es el Complejo Regional Centro, Sede San José Chiapa, justo en la zona de Ciudad Modelo. 🚗💨\n\n¿Por qué estamos allá? Porque ahí es donde ocurre la magia de la industria automotriz y tecnológica. Estar fuera de CU nos permite tener ese plan de estudios tan acelerado y práctico que nos distingue, además de instalaciones súper modernas.\n\n¡Es el lugar perfecto para vivir la verdadera experiencia de la Ingeniería Industrial! ¿Te gustaría saber cómo llegar o prefieres que te hable de nuestra planta docente?"
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "istii ubicacion",
+			"trainingPhrases": [
+				"porque en san jose chiapa",
+				"porque en ciudad modelo",
+				"porque estan alla",
+				"en que campus esta isti",
+				"en que campus esta istii",
+				"donde estan ubicados",
+				"istii no esta en puebla capital",
+				"tengo que ir a cu para estudiar esto",
+				"donde esta la carrera",
+				"la carrera esta en puebla",
+				"isti esta en cu",
+				"istii esta en cu"
+			],
+			"languageCode": "es",
+			"userInformation": "",
+			"prompt": ""
+		},
+		{
+			"content": [
+				{
+					"message": "¡Uff! 🐺 Mira, te la pongo fácil: el plan de estudios de ISTII en Ciudad Modelo está diseñado para los que no quieren perder el tiempo.\n\n¿Por qué somos tu mejor opción frente a CU?\n\n1. Proyectos reales: Aquí trabajamos con clientes de verdad desde el primer semestre. ¡No solo teoría!\n\n2. Vamos a mil: En otros lados (como en CU) ven temas clave como Bases de Datos casi al final de la carrera... ¡aquí le entramos de lleno desde los primeros semestres! 💻💨\n\n3. Enfoque Industrial: Estamos rodeados de las empresas más grandes, así que lo que aprendes hoy, lo aplicas mañana.\n\nBásicamente, saldrás con años de experiencia real mientras otros apenas están terminando sus tareas. ¿Quieres ver qué otras habilidades vas a desarrollar con nosotros?"
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "comparacion con cu",
+			"trainingPhrases": [
+				"porque istii es superior",
+				"porque sin mejores",
+				"que los hace mejores",
+				"por que dicen que su plan es mejor",
+				"me conviene mas puebla o ciudad modelo",
+				"es lo mismo que sistemas en cu",
+				"cual es la diferencia con cu",
+				"porque estudiar aqui y no en puebla",
+				"es mejor que en cu"
+			],
+			"languageCode": "es",
+			"userInformation": "",
+			"prompt": ""
+		},
+		{
+			"content": [
+				{
+					"message": "¡Es una excelente pregunta para entender nuestra identidad! 🐺\n\nTécnicamente, pertenecemos al área de Ingeniería y Ciencias Exactas, y nuestra unidad académica oficial es el Complejo Regional Centro.\n\nPero ojo, ¡que eso no te confunda! Aunque no estamos físicamente en la Facultad de Computación (FCC) de Puebla, disfrutamos de absolutamente todo lo que ellos tienen:\n\n1. 🎓 Mismos beneficios: Congresos, cursos, proyectos y certificaciones.\n\n2. 👨‍🏫 Profesores de élite: Varios de nuestros docentes vienen de dar clases en CU, ¡así que la exigencia y calidad es la misma o hasta mejor!\n\n3. 🏅 Validez: Somos BUAP de corazón y con todo el respaldo institucional.\n\nBásicamente, tenemos todo el poder de la facultad de CU, pero con la ventaja de estar en la zona industrial de San José Chiapa. ¿Te gustaría conocer más sobre nuestra planta docente o qué habilidades vas a desarrollar?"
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "facultad",
+			"trainingPhrases": [
+				"son de la facultad de computacion",
+				"a que facultad pertenecen",
+				"cual es su facultad",
+				"son parte de fcc",
+				"pertenecen a ingenieria",
+				"quien avala la carrera",
+				"son de la facultad de puebla"
+			],
+			"languageCode": "es",
+			"userInformation": "",
+			"prompt": ""
+		},
+		{
+			"content": [
+				{
+					"message": "¡Respeto a CU, pero aquí te van las verdades! 🐺 Mira, CU es increíble, pero ISTII en San José Chiapa tiene ventajas que allá simplemente no pueden ofrecer:\n\n1.  Plan de estudios 2.0: Mientras allá ven teoría por años, aquí trabajas con clientes reales desde el primer semestre. ¡Salimos con experiencia, no solo con un título! 🛠️\n2. Sede estratégica: Estamos en el corazón de la industria. No es lo mismo estudiar sistemas en un salón lejos de todo, que hacerlo a minutos de plantas como Audi. ¡El campo de práctica es nuestra casa! 🚗\n3. Atención personalizada: Aquí no eres un número más entre miles. Al ser un Complejo Regional, el trato con los profes (muchos de ellos doctores que venían de CU) es directo.\n4. Pase Directo: ¡Acuérdate! Aquí entras sin los nervios del examen, algo que en CU es casi imposible.\n\nAl final, si buscas teoría, ve a CU; pero si buscas ser un crack en la práctica y el mundo real, ¡tu lugar es con los Virtual Riders en ISTII! 😎 ¿Te cuento más sobre nuestras materias o prefieres ver dónde trabajarás?"
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "comparacion fcc es mejor ",
+			"trainingPhrases": [
+				"san jose chiapa no le llega a cu",
+				"porque irme tan lejos si cu es mejor",
+				"la facultad de computacion es mejor",
+				"la facultad de computacion es mejor que el complejo regional",
+				"mejor en puebla",
+				"puebla es mejor",
+				"en puebla enseñan mejor ",
+				"prefiero cu porque es la principal",
+				"en puebla enseñan mejor que en san jose chiapa",
+				"cu es mejor que ustedes"
+			],
+			"languageCode": "es",
+			"userInformation": "",
+			"prompt": ""
+		},
+		{
+			"content": [
+				{
+					"message": "¡Hay excelentes universidades, pero déjame decirte por qué ISTII en la BUAP es la jugada maestra! 🐺\n\n🛡️ Frente a la UNAM o el Poli: Son instituciones increíbles, pero en ISTII tenemos un plan de estudios mucho más moderno y enfocado a la industria 4.0, además de que aquí evitas la saturación de la CDMX y tienes el pase directo sin el estrés de sus exámenes masivos.\n\n🏗️ Frente a la UATx o la UV: Nuestra ubicación en Ciudad Modelo nos pone en el epicentro automotriz. No solo estudias la teoría, vives la práctica con empresas globales a la vuelta de la esquina.\n\n💰 Frente a las Privadas: Recibes educación de nivel 'Tec' o 'UDLAP' con profesores que tienen doctorados, ¡pero con el costo mínimo de una universidad pública! Básicamente, ahorras una fortuna y sales igual de preparado (o más).\n\nEn resumen: tenemos la tecnología de las privadas, el prestigio de las grandes públicas y la cercanía industrial que ninguna otra tiene. 😎 ¿Te gustaría ver el campo laboral para que veas dónde podrías trabajar?"
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "comparacion otras escuelas",
+			"trainingPhrases": [
+				"mejor la uanl",
+				"mal ahi",
+				"asco la buap",
+				"ora la buap",
+				"la buap es de licenciaturas",
+				"para ingenierias el ipn",
+				"para ingenieras el poli",
+				"hay mejores escuelas",
+				"otras escuelas son mejores",
+				"que tiene isti que no tengan las demas",
+				"que tiene istii que no tengan las demas",
+				"es mejor la buap que otras universidades",
+				"quiero otra escuela",
+				"por que no irme a la uv en veracruz",
+				"es mejor una escuela privada como la udlap o el tec",
+				"que diferencia hay con la uv",
+				"que diferencia hay con el poli",
+				"que diferencia hay con la unam",
+				"que diferencia hay con otra escuela",
+				"que diferencia hay con la uatx",
+				"me conviene mas la unam",
+				"me conviene mas otras",
+				"me conviene mas el poli o el ipn",
+				"es mejor la unam que la buap"
+			],
+			"languageCode": "es",
+			"userInformation": "",
+			"prompt": ""
+		},
+		{
+			"content": [
+				{
+					"message": "¡Te va a encantar esto! 🐺 Estudiar en ISTII es una verdadera ganga comparado con cualquier otra opción. Aquí te explico cómo funcionan los pagos:\n\n1️⃣ Primer Semestre: Solo al entrar se paga una cuota de aportación única. Para nuestra carrera, el promedio es de $1,200 pesos.\n2️⃣ Inscripción Semestral: ¡Aquí viene lo bueno! En la BUAP no hay mensualidades. Solo pagas tu inscripción cada semestre, la cual se calcula por créditos.\n💸 El costo promedio por semestre es de entre $300 y $400 pesos.\n\nBásicamente, con lo que pagas en una escuela privada en un mes, aquí cubres casi toda tu carrera. 😎 ¿Te gustaría que te explique qué becas puedes solicitar para que te salga aún más barato?"
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "colegiatura",
+			"trainingPhrases": [
+				"cuanto se paga al año",
+				"cuanto cuesta la inscripcion",
+				"que pagos debo hacer cada semestre",
+				"precio de la carrera",
+				"cuanto cuesta el mes",
+				"cuanto cuesta el semestre",
+				"cuanto se paga de colegiatura",
+				"cuanto cuesta la mensualidad"
+			],
+			"languageCode": "es",
+			"userInformation": "",
+			"prompt": ""
+		},
+		{
+			"content": [
+				{
+					"message": "¡Aquí venimos a ensuciarnos las manos con tecnología! 🐺 En ISTII, nuestra filosofía es 70% práctica y 30% teoría.\n\nA diferencia de otros planes de estudio aburridos:\n\n1. Proyectos reales: Desde el primer semestre trabajas en soluciones para problemas de verdad con clientes reales. 🛠️\n\n2. Laboratorios de punta: La mayor parte del tiempo la pasarás en nuestros laboratorios programando, configurando redes y protegiendo sistemas.\n3. Teoría aplicada: No estudiamos teoría 'porque sí', la estudiamos para entender cómo hacer que las cosas funcionen mejor en la industria.\n\nBásicamente, si te gusta aprender haciendo y ver resultados rápidos, ¡eres de los nuestros! 😎 ¿Te gustaría saber qué habilidades específicas vas a desarrollar en estas prácticas?"
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "que tanto porcentaje es practica",
+			"trainingPhrases": [
+				"que tanto porcentaje es practica",
+				"como son las clases",
+				"es pura programacion o tambien hardware",
+				"voy a estar sentado todo el dia o voy a hacer algo",
+				"hacen practicas",
+				"dan mucha teoria",
+				"la carrera es practica o teorica",
+				"la carrera aburre?",
+				"aburre?",
+				"la teoria me aburre"
+			],
+			"languageCode": "es",
+			"userInformation": "",
+			"prompt": ""
+		},
+		{
+			"content": [
+				{
+					"message": "¡En ISTII tenemos a los mejores guías para tu camino! 🐺 No solo son expertos, sino que muchos de ellos traen toda la experiencia de haber dado clases en CU.\n\nNuestra planta docente está integrada por:\n\na. 5 Doctores: Expertos en investigación y tecnología avanzada.\n\nb. 7 Maestros: Especialistas con gran experiencia en la industria.\n\nc. 3 Profesores de idiomas: Para que domines el inglés, ¡herramienta básica en sistemas!\n\nLo mejor de todo es que, al estar en un Complejo Regional, el trato es mucho más cercano. Aquí no eres un número más; tus profes te conocen por tu nombre y te apoyan en tus proyectos reales desde el día uno. 🚀\n\n¿Te gustaría saber qué habilidades vas a desarrollar con ellos o prefieres conocer el campo laboral?"
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "calidad de los profesores",
+			"trainingPhrases": [
+				"calidad de los profesores",
+				"planta docente",
+				"estan preparados los maestros",
+				"quien me va a dar clases",
+				"tienen doctores",
+				"que tan buenos son los profes",
+				"como son los maestros",
+				"quienes son los maestros"
+			],
+			"languageCode": "es",
+			"userInformation": "",
+			"prompt": ""
+		},
+		{
+			"content": [
+				{
+					"message": "¡Claro que sí! 🐺 El hecho de estar en el Complejo Regional no te limita, al contrario: como estudiante de la BUAP, tienes las puertas abiertas al mundo.\n\nTienes dos opciones increíbles:\n🇲🇽 Movilidad Nacional: Puedes cursar un semestre en otras universidades top de México.\n🌎 Movilidad Internacional: ¡La manada llega a todos lados! Hay convenios con universidades en España, Alemania, Estados Unidos, Colombia, Corea del Sur y muchos países más.\n\n¿Qué necesitas? Básicamente ser un alumno regular, tener un buen promedio y, en el caso de otros países, dominar el idioma (recuerda que tenemos 3 profes de idiomas para ayudarte con eso). 😉\n\n¿Te imaginas estudiando sistemas en otro continente? 🚀 ¿Quieres saber qué habilidades necesitas desarrollar para lograrlo o prefieres ver lo de las becas para apoyarte?"
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "intercambios",
+			"trainingPhrases": [
+				"a donde me puedo ir de intercambio",
+				"puedo hacer un semestre fuera",
+				"hay convenios con otras universidades",
+				"puedo estudiar en el extranjero",
+				"quiero ir a otro pais",
+				"tienen movilidad estudiantil",
+				"me puedo ir a otro pais",
+				"hay intercambios"
+			],
+			"languageCode": "es",
+			"userInformation": "",
+			"prompt": ""
+		},
+		{
+			"content": [
+				{
+					"message": "¡En la BUAP y en ISTII apoyamos tu talento! 🐺 La universidad ofrece varias opciones para que el dinero no sea un obstáculo. Aquí tienes la lista de apoyos:\n\n🌟 Beca de Excelencia: Para los cracks con promedio de 9.5 o más. ¡Recibes un apoyo de $5,500 MXN!\n\n🎓 Beca Académica: Si tienes buen rendimiento, recibes $4,000 MXN.\n\n🤝 Beca Socioeconómica: Para quienes necesitan el impulso económico, también otorga $4,000 MXN.\n\n🍎 Beca Alimenticia: ¡Súper útil! Te garantiza comida diaria durante todo el semestre.\n\n🎨🏀 Becas Artística y Deportiva: Para los que destacan representando a la manada en estas áreas.\n\n¿Cómo se piden? Muy fácil: todas se solicitan en becas.buap.mx usando tu correo institucional una vez que ya seas alumno. 💻✨\n\n¿Te gustaría saber qué habilidades desarrollarás para ser un alumno de excelencia o prefieres conocer el campo laboral?"
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "becas",
+			"trainingPhrases": [
+				"pagina para tramitar becas",
+				"requisitos becas",
+				"beca de comida",
+				"requisitos beca de excelencia",
+				"montos de la becas",
+				"dinero de las becas",
+				"cash de las becas",
+				"de a cuanto son las becas",
+				"de a como son las becas",
+				"cuanto dinero dan en las becas",
+				"becas buap",
+				"requisitos para becas",
+				"dan apoyos economicos",
+				"quiero una beca",
+				"como consigo una beca",
+				"beca",
+				"becas",
+				"puedo tener beca",
+				"que becas ofrecen",
+				"hay becas"
+			],
+			"languageCode": "es",
+			"userInformation": "",
+			"prompt": ""
+		},
+		{
+			"content": [
+				{
+					"message": "¡El tiempo vuela cuando te diviertes programando! 🐺 La carrera de ISTII tiene una duración total de 4 años y medio, los cuales están perfectamente distribuidos en 9 semestres.\n\nDurante ese tiempo, irás directo al grano con proyectos prácticos para que, al terminar, ya seas todo un profesional listo para la industria. 🎓🚀\n\n¿Te gustaría conocer las habilidades que desarrollarás durante estos 9 semestres o prefieres ver dónde podrías trabajar al graduarte?"
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "duracion carrera",
+			"trainingPhrases": [
+				"es muy larga la carrera",
+				"cuantos años son de estudio",
+				"duracion de istii",
+				"cuantos semestres son",
+				"duracion",
+				"duracion de la carrera",
+				"cuanto dura la carrera"
+			],
+			"languageCode": "es",
+			"userInformation": "",
+			"prompt": ""
+		},
+		{
+			"content": [
+				{
+					"message": "¡Respira tranquilo! 🐺 En ISTII, el gasto en materiales es casi nulo. A diferencia de otras carreras, aquí no te pediremos cosas caras cada semana.\n\nLo que debes considerar es:\n🚌 Pasajes: Tu mayor gasto será el transporte para llegar a nuestra sede.\n💻 Computadora: Aunque es ideal tener una propia para practicar, ¡no es obligatorio comprarla! > 🔬 Laboratorios de punta: Si no tienes equipo o no quieres gastar, nuestros laboratorios están equipados con tecnología de última generación y están listos para que trabajes en ellos. ¡Nunca te defraudarán!\n\nEn resumen: tu mayor inversión será tu tiempo y esfuerzo. 😎 ¿Te gustaría saber más sobre las materias o prefieres conocer los horarios?"
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "piden materiales ",
+			"trainingPhrases": [
+				"que tan caro es aparte del semestre",
+				"que tan caro es aparte de la mesualidad",
+				"que tan caro es aparte de la colegiatura",
+				"cuanto se gasta aparte de la colegiatura",
+				"que equipo piden para sistemas",
+				"necesito mi propia computadora",
+				"es cara la carrera en cuanto a materiales",
+				"tengo que gastar mucho en libros o equipo",
+				"piden materiales caros",
+				"que tan caro es ",
+				"es caro estudiar ahi",
+				"es caro estudiar isti",
+				"que materiales necesito comprar"
+			],
+			"languageCode": "es",
+			"userInformation": "",
+			"prompt": ""
+		},
+		{
+			"content": [
+				{
+					"message": "¡Entiendo! No todas las carreras son para todos. 🐺 Sin embargo, recuerda que ISTII es de las pocas con pase directo y una conexión increíble con la industria automotriz en Ciudad Modelo. 🚗💻\n\nSi lo tuyo son los retos tecnológicos, ¡quizás te sorprendas después! Pero respeto tu decisión. ¿Hay alguna otra cosa en la que el equipo de Virtual Riders o yo podamos ayudarte hoy? ¿O prefieres conocer otra área del campus?"
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "negativas",
+			"trainingPhrases": [
+				"no me gusta ciudad modelo",
+				"no quiero entrar a esa escuela",
+				"no me llama la atencion",
+				"esta fea la carrera",
+				"no me interesa istii",
+				"no me interesa la carrera",
+				"para nada",
+				"nel no quiero",
+				"nel no me gusta",
+				"nel",
+				"no me gusta",
+				"no gracias",
+				"no me interesa",
+				"se oye fea",
+				"no quiero",
+				"no",
+				"istii aburrido",
+				"wakala isti",
+				"no me interesa isti",
+				"isti malo",
+				"isti aburrido",
+				"istii malo",
+				"wakala istii",
+				"asco istii",
+				"que feo",
+				"que feas",
+				"estan feas"
+			],
+			"languageCode": "es",
+			"userInformation": "",
+			"prompt": ""
+		},
+		{
+			"content": [
+				{
+					"message": "¡Oye, tranquilo! 🐺 Mira, 'feas' es un término relativo. Si las comparas con sacarte la lotería, pues tal vez; pero en el mundo real, que una universidad pública te regale dinero por estudiar es un parote.\n\nPiénsalo así:\n\n💸 Costo vs Beneficio: Si tu inscripción cuesta unos $400 pesos y la beca te da $4,000 o $5,500, ¡literalmente te están pagando por ir a la escuela! Te sobra para tus pasajes o para mejorar tu equipo.\n\n🍕 La Beca Alimenticia: Esa no es 'fea' cuando tienes hambre a mitad de la jornada y tienes comida gratis y caliente esperándote.\n\n🛡️ Seguridad: A diferencia de otras instituciones, en la BUAP los procesos son transparentes. Si cumples los requisitos, el dinero llega porque llega.\n\nAl final, es un apoyo, no un sueldo de gerente. ¡Para el sueldo de gerente te estamos preparando en la carrera! 😉 ¿Quieres ver qué habilidades te harán ganar esos sueldos de verdad o prefieres ver la planta docente?"
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "becas feas",
+			"trainingPhrases": [
+				"estan horribles las becas",
+				"muy pobres",
+				"las becas de la buap no valen la pena",
+				"de que me sirven 4000 pesos",
+				"es un rollo que te den la beca",
+				"seguro ni dan las becas",
+				"muy poco",
+				"pagan bien poquito de beca",
+				"las becas estan feas"
+			],
+			"languageCode": "es",
+			"userInformation": "",
+			"prompt": ""
+		},
+		{
+			"content": [
+				{
+					"message": "Desde el día uno! 🐺 Si eres de nuevo ingreso, se usa tu promedio de la prepa para concursar. Así que si saliste con todo de la preparatoria, ¡desde el primer semestre ya puedes tener tu beca! 💰✨\n\nNo tienes que esperar a terminar el año para recibir el apoyo. Solo entra a:\n🔗 becas.buap.mx\n\n¡En ISTII premiamos tu esfuerzo desde el arranque! 😎 ¿Te gustaría saber qué habilidades vas a desarrollar o prefieres ver la duración de la carrera?"
+				},
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "11",
+						"payload": [
+							{
+								"name": "Becas BUAP",
+								"action": {
+									"type": "link",
+									"url": "https://becas.buap.mx/"
+								}
+							}
+						]
+					}
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "seguridad becas",
+			"trainingPhrases": [
+				"me tengo que esperar a segundo semestre?",
+				"becas para los que apenas entran",
+				"necesito esperar para pedir beca",
+				"que promedio toman para la primera beca",
+				"se puede tener beca siendo de nuevo ingreso",
+				"puedo tener beca desde el primer semestre",
+				"link de becas buap",
+				"quiero mas informacion de las becas",
+				"que tan probable es la beca",
+				"me van a dar la beca si la pido",
+				"es seguro que me den beca"
+			],
+			"languageCode": "es",
+			"userInformation": "",
+			"prompt": ""
+		},
+		{
+			"content": [
+				{
+					"message": "¡Ojo aquí, manada! ⚠️ Te paso la info real para que tú decidas qué te conviene más:\n\n1️⃣ El cambio federal: Al entrar a la uni, la beca Benito Juárez de la prepa se termina. El programa que sigue es Jóvenes Escribiendo el Futuro, pero toma en cuenta que la BUAP actualmente no participa en ese programa federal.\n\n2️⃣ Regla de oro: No son compatibles. Las becas de la BUAP no se pueden combinar con ninguna otra. Si el sistema detecta que tienes dos apoyos al mismo tiempo, podrías tener problemas y te pedirán devolver el dinero. 📉\n\nMi consejo: Analiza tus opciones y elige la que mejor se adapte a tus necesidades. Si decides ir por las de la Manada (Excelencia, Académica, Socioeconómica, etc.), recuerda que en nuestro Complejo Regional tienes muchísimas posibilidades de obtenerla si eres alumno regular. 🐺💰\n\nCheca todos los detalles aquí: 🔗 becas.buap.mx\n\nAl final, ¡tú eliges tu camino! 😎 ¿Te gustaría saber qué habilidades desarrollarás en la carrera o prefieres ver el campo laboral?"
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "compatibilidad becas",
+			"trainingPhrases": [
+				"tendre la beca jovenes ",
+				"y la beca jovenes",
+				"que pasa con la beca jovenes",
+				"que hay de subes",
+				"y la beca subes",
+				"puedo pedir la beca de subes",
+				"puedo pedir subes",
+				"la buap tiene subes",
+				"quiero la beca federal en isti",
+				"quiero la beca federal en istii",
+				"por que ya no me dan mi beca del gobierno",
+				"la buap tiene jovenes escribiendo el futuro",
+				"puedo pedir jovenes escribiendo el futuro",
+				"que pasa con mi beca de la prepa",
+				"se sigue cobrando la benito juarez en la uni",
+				"puedo tener la alimenticia y la de excelencia",
+				"tienen convenios con otras becas",
+				"que pasa si ya tengo beca del gobierno",
+				"puedo pedir becas externas",
+				"es compatible con la beca benito juarez",
+				"puedo tener dos becas al mismo tiempo"
+			],
+			"languageCode": "es",
+			"userInformation": "",
+			"prompt": ""
+		},
+		{
+			"content": [
+				{
+					"message": "¡Oye, y no te olvides de la Beca Santander! 🏦✨\n\nEs una opción muy buena y, al ser alumnos de la BUAP, ¡claro que somos seleccionables! Es una gran oportunidad para impulsar tus estudios con el respaldo de una institución internacional.\n\nEso sí, te paso dos tips de lobo:\n1️⃣ Investiga por tu cuenta: No conozco los requisitos exactos ni las fechas de este año, así que te toca echarle un ojo a su portal oficial para ver qué piden.\n2️⃣ ¡Mucho cuidado! Si llegas a ganar la de Santander, recuerda que no hay compatibilidad. Si ya tienes una beca de la BUAP, tendrás que elegir solo una para evitar problemas legales o devoluciones de dinero. ⚠️\n\n¡Tú decides qué apoyo te sirve más para ser un crack en ISTII! 😎 ¿Te gustaría saber qué habilidades vas a desarrollar o prefieres ver el campo laboral?"
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "beca santander",
+			"trainingPhrases": [
+				"santander",
+				"beca santander",
+				"como funciona la beca santander",
+				"santander es compatible con la buap",
+				"hay becas de bancos o empresas",
+				"puedo pedir la beca santander en la buap",
+				"tienen la beca santander",
+				"tampoco la santander",
+				"y la beca santander",
+				"que es la beca santander"
+			],
+			"languageCode": "es",
+			"userInformation": "",
+			"prompt": ""
+		},
+		{
+			"content": [
+				{
+					"message": "🐺 No te preocupes por eso, ser menor de edad no te impide recibir una beca en la BUAP.\n\nMuchos de nuestros 'cachorros' entran a la carrera con 17 años y pueden solicitar su apoyo sin problemas. El único detalle es que, para cobrarla o hacer los trámites bancarios, probablemente necesites el apoyo de tu padre o tutor para firmar algunos documentos o abrir la cuenta donde te depositarán. 📑👨‍👩‍👦\n\n¡Así que dale con todo! Si tienes el promedio, la beca puede ser tuya. 😎 ¿Te gustaría saber qué habilidades vas a desarrollar en ISTII o prefieres ver el campo laboral?"
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "puede ser la cuenta de un conocido",
+			"trainingPhrases": [
+				"puede ser la cuenta de un conocido",
+				"puede ser la cuenta de un amigo",
+				"puede ser la cuenta de un familiar",
+				"puede ser la cuenta de mi papa",
+				"puede ser la cuenta de mi mama",
+				"donde depositan",
+				"y si no tengo cuenta",
+				"que pasa si aun no tengo mi ine para la beca",
+				"necesito ser mayor de edad para la beca",
+				"requisitos para menores de edad becas",
+				"tengo 17 años puedo pedir beca",
+				"puedo tener beca si soy menor de edad"
+			],
+			"languageCode": "es",
+			"userInformation": "",
+			"prompt": ""
+		},
+		{
+			"content": [
+				{
+					"message": "¡Buena pregunta para el ahorro! 🐺 Normalmente, las becas de la BUAP se pagan por semestre.\n\nOjo aquí: no es que te den un poquito cada mes, sino que la universidad suele hacer un solo pago o dos máximo que cubren todo el periodo de la convocatoria. 💰📅\n\nPor eso es súper importante que, cuando te llegue tu depósito, lo administres bien para que te rinda todo el ciclo escolar. ¡No te lo gastes todo en una sola salida! 😂\n\nRecuerda que cada semestre sale una convocatoria nueva, así que debes estar pendiente de:\n🔗 becas.buap.mx\n\n¿Te gustaría saber qué habilidades desarrollarás para ser un alumno de excelencia o prefieres ver el campo laboral para cuando te gradúes?"
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "frecuencia becas",
+			"trainingPhrases": [
+				"dan la beca cada mes o cada semestre",
+				"cada cuanto se cobran las becas buap",
+				"cuantas veces al año dan becas",
+				"cuando dan el dinero de la beca",
+				"la beca es mensual",
+				"cada cuanto pagan la beca",
+				"cuantos pagos son",
+				"cuanto pagos son",
+				"solo es una?",
+				"es una beca al semetre?",
+				"la beca es semestral"
+			],
+			"languageCode": "es",
+			"userInformation": "",
+			"prompt": ""
+		},
+		{
+			"content": [
+				{
+					"message": "¡En ISTII tú eres el dueño de tu tiempo! 🐺 Tenemos una gran variedad de actividades extracurriculares: deportivas, académicas y culturales.\n\nLo mejor de todo es que NO son de carácter obligatorio. Queremos que te diviertas y aprendas cosas nuevas porque te nace, no por compromiso. ¡Tenemos tantas opciones que lo difícil será elegir solo una!\n\n⚽ Deportes y Cultura: Fútbol, básquet, danza, música y más.\n\n 💻 Académicas: Clubes de robótica y programación.\n\nPara conocer las convocatorias vigentes, horarios y cómo inscribirte, puedes checar toda la información detallada directamente en la página oficial de la BUAP. 🔗\n\n¡Tú decides en qué quieres destacar fuera del salón! 😎 ¿Te gustaría saber qué habilidades técnicas aprenderás en tus clases o prefieres conocer el campo laboral?"
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "extracurriculares",
+			"trainingPhrases": [
+				"donde me inscribo a deportes",
+				"horario de los talleres",
+				"pagina de actividades culturales",
+				"donde hay mas info de los deportes",
+				"donde veo los talleres",
+				"actividades culturales",
+				"que mas hay aparte de estudiar",
+				"torneos deportivos",
+				"hay telleres?",
+				"que talleres hay",
+				"hay talleres de musica o danza",
+				"que hacen en su tiempo libre",
+				"actividades fuera de clase",
+				"hay deportes",
+				"actividades fuera de horario",
+				"que tantas cosas hay para hacer",
+				"tengo que ir a fuerza a los talleres",
+				"es obligatorio ir a deportes",
+				"hay actividades obligatorias"
+			],
+			"languageCode": "es",
+			"userInformation": "",
+			"prompt": ""
+		},
+		{
+			"content": [
+				{
+					"message": "¡Uff, me encanta esa pasión por asegurar el futuro! 🐺💥 Se nota que vas con todo para ser parte de la manada.\n\nAunque me encantaría darte cada detalle, los requisitos y documentos pueden cambiar en cada convocatoria. Para que tengas la información exacta y actualizada de esa beca que te interesa, lo mejor es que consultes directamente el portal oficial:\n\nbecas.buap.mx\n\nAhí encontrarás las bases completas para que no se te pase ni un solo papel. ¡Esa organización es la que te llevará lejos en ISTII! 😎\n\n¿Qué te parece si ahora vemos las habilidades que vas a aprender o prefieres checar el campo laboral?"
+				},
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "11",
+						"payload": [
+							{
+								"name": "Becas BUAP",
+								"action": {
+									"type": "link",
+									"url": "http://becas.buap.mx"
+								}
+							}
+						]
+					}
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "mas info becas",
+			"trainingPhrases": [
+				"quiero mas info de becas",
+				"mas informacion de la beca deportiva",
+				"explicame mas de una beca en especifico",
+				"cuanto dinero dan exactamente en la beca academica",
+				"cuando sale la convocatoria de la beca de talento",
+				"que documentos necesito para la alimenticia",
+				"cuales son los requisitos de la socioeconomica",
+				"quiero mas info de la beca de excelencia"
+			],
+			"languageCode": "es",
+			"userInformation": "",
+			"prompt": ""
+		},
+		{
+			"content": [
+				{
+					"message": "¡Tranquilo, futuro colega! 🐺 La respuesta corta es: ¡No necesitas ser un experto para empezar!\n\nEn ISTII estamos listos para llevarte de la mano:\n\n💻 Desde cero: El plan de estudios está diseñado para que empieces con las bases, así que si nunca has programado una sola línea de código, ¡aquí te enseñamos!\n\n 🧮 Las Matemáticas: No te voy a mentir, sí las usamos (somos ingeniería), pero lo que más importa es tu lógica y las ganas de resolver problemas.\n\n🚀 Lo que sí necesitas: Curiosidad, mucha paciencia y pasión por la tecnología. Si tienes eso, lo técnico lo aprendes aquí.\n\n¡Ven con la mente abierta y nosotros te damos las herramientas! 😎 ¿Te gustaría saber qué habilidades específicas vas a desarrollar en los primeros semestres o prefieres ver el campo laboral?"
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "conocimientos previos",
+			"trainingPhrases": [
+				"requisitos de conocimientos previos",
+				"que pasa si no se nada de sistemas",
+				"necesito ser un experto en mate",
+				"piden conocimientos de computacion",
+				"necesito conociemitos previos",
+				"que debo saber antes de la carrera",
+				"necesito saber programar para entrar"
+			],
+			"languageCode": "es",
+			"userInformation": "",
+			"prompt": ""
+		},
+		{
+			"content": [
+				{
+					"message": "En ISTII te conviertes en el puente entre el software y las fábricas del futuro! 🐺💻\n\nAquí vas a desarrollar 4 habilidades nivel crack:\n\n1️⃣ Developer Pro: Aprenderás programación avanzada, bases de datos e ingeniería de software para crear cualquier sistema.\n2️⃣ Mente Lógica: Dominarás algoritmos y matemáticas aplicadas para resolver problemas que otros ni entienden.\n3️⃣ Visión Industrial: Sabrás cómo funcionan las empresas por dentro y cómo usar la tecnología para hacerlas más rápidas y seguras.\n4️⃣ Global Player: Con 4 niveles de inglés y formación humana, estarás listo para trabajar en cualquier empresa del mundo. 🌍\n\nBásicamente, ¡aprenderás a programar el mundo real! 😎 ¿Te gustaría saber en qué empresas podrías trabajar con estas habilidades o prefieres ver la duración de la carrera?"
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "que materias importantes hay",
+			"trainingPhrases": [
+				"que materias importantes hay",
+				"de que trata la malla curricular",
+				"que me enseña isti",
+				"que me enseña istii",
+				"cuales son las habilidades de la carrera",
+				"que voy a aprender"
+			],
+			"languageCode": "es",
+			"userInformation": "",
+			"prompt": ""
+		},
+		{
+			"content": [
+				{
+					"message": "🐺 La Ingeniería en Sistemas y Tecnologías de la Información Industrial (ISTII) es exactamente lo que buscas. ¡Es la mejor elección que puedes hacer!\n\nEs la carrera del momento, donde aprenderás cosas como:\n1. Programar y construir aplicaciones innovadoras.\n2. Diseñar redes y proteger sistemas contra ataques.\n3. Resolver problemas reales usando tecnología de punta.\n\nBásicamente, te preparamos para liderar la transformación digital en la industria. 💻🚀 ¿Te gustaría saber qué habilidades desarrollarás o prefieres ver cuánto dura la carrera?"
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "que es istii",
+			"trainingPhrases": [
+				"de que trata la ingenieria en tecnologias de la informacion industrial",
+				"de que trata la ingenieria en tecnologias de la informacion ",
+				"que significa isti",
+				"que significa istii",
+				"de que trata la ingenieria en sistemas y tecnologias de la informacion industrial",
+				"que se hace en esta carrera",
+				"que es la ingenieria en sistemas",
+				"de que trata la carrera",
+				"que es isti",
+				"que es istii",
+				"hablame de istii",
+				"hablame de isti",
+				"hablame de la carrera",
+				"info de la carrera",
+				"informacion de la carrea",
+				" información de la carrera de ISTII.",
+				"informacion",
+				"quiero informacion",
+				"quiero info"
+			],
+			"languageCode": "es",
+			"userInformation": "",
+			"prompt": ""
+		},
+		{
+			"content": [
+				{
+					"message": "\"¡Prepárate, porque con ISTII el campo laboral es gigante! 🐺💸 Al ser un híbrido entre sistemas e industria, puedes trabajar en:\n🚗 Sector Automotriz y Manufactura: Como estamos en Ciudad Modelo, empresas como Audi o Volkswagen buscan cracks que sepan programar y entiendan procesos industriales.\n\n💻 Empresas de Tecnología: Como desarrollador de software (Backend, Frontend) o administrador de bases de datos en cualquier Tech Company.\n\n🛡️ Ciberseguridad y Redes: Protegiendo la información de grandes empresas o diseñando sus infraestructuras de comunicación.\n\n 🚀 Tu propia Consultora: Podrás crear soluciones de automatización y software para empresas que quieren modernizarse.\n\n📊 Inteligencia de Negocios: Analizando datos para que las empresas tomen mejores decisiones.\n\n¡Básicamente, donde haya una computadora o una máquina, ahí se necesita un ingeniero de ISTII! 😎\n\n¿Te gustaría saber cuánto dura la carrera para empezar ya o prefieres que revisemos de nuevo las habilidades que vas a desarrollar?"
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "campo laboral",
+			"trainingPhrases": [
+				"campo de trabajo de sistemas industriales",
+				"de que voy a trabajar",
+				"que empresas buscan",
+				"que empresas buscan de sistemas",
+				"que empresas contratan",
+				"donde puedo trabajar al salir",
+				"informacion de campo laboral",
+				"campo laboral",
+				"en que voy a trabajar"
+			],
+			"languageCode": "es",
+			"userInformation": "",
+			"prompt": ""
+		},
+		{
+			"content": [
+				{
+					"message": "¡Hablemos de negocios, manada! 🐺💸 En ISTII, tu sueldo crece conforme tú creces. Aquí te va el mapa de lo que puedes aspirar:\n\n🐣 El arranque (1er año): Recién salidito de la uni, el sueldo suele rondar entre los $2,000 y $4,000 pesos mensuales. Es tu etapa de 'esponja' para aprender todo en el campo real.\n\n💻 Programador Junior: Ya con experiencia y dominando el código, puedes aspirar a ganar entre $6,000 y $8,000 pesos al mes. ¡Aquí ya empiezas a ver los frutos de las desveladas!\n\n🚀 Programador Senior: Si te sigues preparando, dominas otros lenguajes y te vuelves un experto, ¡puedes llegar a ganar hasta $60,000 pesos mensuales o más!\n\nRecuerda que en tecnología, entre más sepas resolver problemas difíciles, ¡más gorda se pone la cartera! 😎\n\n¿Te gustaría saber qué habilidades te llevarán más rápido a ese sueldo de Senior o prefieres ver las actividades extra para relajarte?"
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "sueldo",
+			"trainingPhrases": [
+				"voy a ganar mucho dinero",
+				"cual es el salario de un senior",
+				"cuanto gana un programador junior",
+				"pagan bien en esta carrera",
+				"cusnto pagan",
+				"cual es el sueldo",
+				"cual es el sueldo de un egresado",
+				"cuanto voy a ganar"
+			],
+			"languageCode": "es",
+			"userInformation": "",
+			"prompt": ""
+		},
+		{
+			"content": [
+				{
+					"message": "¡Estamos en el centro de la revolución tecnológica! 🐺💥 No solo tenemos las fábricas de siempre, lo que viene es otro nivel:\n\n🛒 Walmart en Huamantla: Se está construyendo el CEDIS de Walmart más grande de toda Latinoamérica. Y no es cualquier bodega, tendrá tecnología de punta donde los ingenieros de ISTII seremos clave.\n\n🌐 El 'Silicon Valley' de Puebla: ¡El gobernador ya lo hizo oficial! En Ciudad Modelo (que pronto cambiará su nombre a Ciudad de la Tecnología y la Sustentabilidad) se instalarán oficinas oficiales de Amazon, Google y Microsoft. 🚀\n\nImagina graduarte y tener a estos gigantes literalmente a la vuelta de tu universidad. ¡Ya no tendrás que buscar el trabajo, el trabajo te va a buscar a ti! 😎\n\n¿Te gustaría saber qué habilidades necesitas para entrar a Google o prefieres ver cuánto dura la carrera?"
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "empresas",
+			"trainingPhrases": [
+				"noticias de la ciudad de la tecnologia",
+				"donde habra mas trabajo para istii",
+				"que va a pasar con ciudad modelo",
+				"donde estara el cedis de walmart",
+				"es cierto lo de google y amazon",
+				"que empresas nuevas vienen",
+				"ciudad modelo",
+				"que es la ciudad de la tecnologia",
+				"empresas en ciudad modelo",
+				"por que estudiar en san jose chiapa",
+				"que empresas hay cerca de la escuela",
+				"donde estan las empresas",
+				"donde trabajo",
+				"dime empresas",
+				"donde puedo ir a trabajr",
+				"hay chamba",
+				"donde hay chamba",
+				"en que empresas puedo entrar"
+			],
+			"languageCode": "es",
+			"userInformation": "",
+			"prompt": ""
+		},
+		{
+			"content": [
+				{
+					"message": "¡Al contrario! 🐺 No es por presumir, pero ser un chico ISTII es tener un pase VIP al mundo laboral.\n\n¿Por qué es 'fácil' que te contraten? Aquí te van las 3 razones:\n\nPoca competencia, mucha demanda: Hay muchos programadores, pero muy pocos que entiendan cómo funciona una fábrica o un proceso industrial. ¡Tú eres de esos pocos!\n\nUbicación estratégica: Al estar en San José Chiapa, las empresas que están llegando (como el CEDIS de Walmart o las oficinas de Google y Amazon) vienen buscando talento local. Básicamente, ¡van a ir a buscarte a la escuela! 🏭\n\nPerfil Híbrido: Sabes de código, de fierros y de negocios. Eso te hace un candidato irresistible para cualquier reclutador.\n\nLo único que necesitas es echarle ganas al inglés y a tus proyectos, porque las empresas se pelean por los que saben resolver problemas. 😎\n\n¿Te gustaría saber cuánto dura la carrera para empezar a armar tu CV o prefieres ver el proceso de admisión?"
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "dificultad trabajo",
+			"trainingPhrases": [
+				"que tan buscados son los de sistemas industriales",
+				"es dificil entrar a trabajar a esas empresas",
+				"hay mucha competencia",
+				"que tan facil es que me contraten",
+				"es difícil encontrar trabajo"
+			],
+			"languageCode": "es",
+			"userInformation": "",
+			"prompt": ""
+		},
+		{
+			"content": [
+				{
+					"message": "¡Vaya! 🐺 Parece que alguien amaneció con el código de malas pulgas hoy.\n\nComo Virtual Rider, mi sistema está programado para ser eficiente y buena onda, no para pelear. Mejor vamos a usar esa energía para algo productivo, ¿no crees? 🚀\n\nMi sistema solo procesa buena vibra y dudas sobre ingeniería. ✌️ Si necesitas info real de la carrera, aquí estaré. ¡Cambio y fuera!"
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "insultos",
+			"trainingPhrases": [
+				"(cualquier insulto o grosería directa)",
+				"no me ayudaste en nada",
+				"eres lento",
+				"eres una basura",
+				"hueles feo",
+				"pinche bot feo",
+				"gracias por anda",
+				"no sirves para nada",
+				"eres un tonto",
+				"no me hables",
+				"callate",
+				"callete"
+			],
+			"languageCode": "es",
+			"userInformation": "",
+			"prompt": ""
+		},
+		{
+			"content": [
+				{
+					"message": "¡Claro! El plan de los Chicos ISTII está diseñado para que te conviertas en un crack paso a paso. La carrera dura entre 9 y 10 semestres y se divide así:\n\n🔹 El Inicio (1º a 3º semestre): Aquí construimos tus bases. Mucho inglés (son 4 niveles), matemáticas para ingenieros y tus primeras líneas de código con Fundamentos de Programación.\n\n🔹 El Desarrollo (4º a 6º semestre): ¡Aquí empieza lo bueno! Te metes de lleno en Bases de Datos, Ingeniería de Software y empiezas a entender los procesos de las empresas. Ya no solo programas, ya diseñas soluciones.\n\n🔹 La Especialización (7º a 9º semestre): Te vuelves un experto. Llevas materias como Ciberseguridad, Vigilancia Tecnológica y tus Prácticas Profesionales (donde muchas veces ya te quedas trabajando en empresas como Audi o VW).\n\n🔹 El Cierre: Eliges tus Optativas según lo que más te guste: ¿Quieres irte por el lado industrial o por el desarrollo de apps puro? ¡Tú decides tu camino!\n\nEn total son 276 créditos de pura tecnología y aprendizaje. 😎\n\n¿Quieres que te diga cuáles son las materias más difíciles para que te vayas preparando o prefieres ver lo de las becas?"
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "plan de estudios",
+			"trainingPhrases": [
+				"que se ve en cada semestre",
+				"dame la tira de materias",
+				"que voy a ver ",
+				"como esta organizada la carrera",
+				"materias",
+				"materoas",
+				"que materias voy a llevar",
+				"plan de estudios",
+				"cual es el plan de estudios"
+			],
+			"languageCode": "es",
+			"userInformation": "",
+			"prompt": ""
+		},
+		{
+			"content": [
+				{
+					"message": "¡Hablemos claro, Chico ISTII! 😎 No te voy a mentir, hay materias que son como el 'jefe final' de un videojuego. Aquí te van las que requieren que les eches más ganas:\n\n1️⃣ Cálculo y Matemáticas (los primeros semestres): Algebra Vectorial o Cálculo Diferencial suelen ser el primer filtro. No es que sean imposibles, pero requieren que no faltes a ninguna clase.\n2️⃣ Programación III y Estructura de Datos: Aquí es donde dejas de hacer 'programitas' y empiezas a crear sistemas complejos. Si no dominas las bases de los primeros semestres, aquí se puede complicar.\n3️⃣ Redes y Ciberseguridad: Aprender cómo viaja la info y cómo protegerla es fascinante, pero tiene mucha teoría y configuración técnica que te volará la cabeza.\n4️⃣ Ingeniería de Software: No es difícil por los números, sino por la organización. Aprender a gestionar proyectos grandes es un reto mental.\n\n¿El secreto para pasarlas? No te quedes con dudas y apóyate en la manada. ¡Los Chicos ISTII nunca dejan a nadie atrás! 🚀\n\n¿Quieres que veamos el plan de estudios completo para que veas en qué semestre te tocan o prefieres relajarte viendo lo de las becas?"
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "materias dificilescuales son las materias mas dificiles",
+			"trainingPhrases": [
+				"a que le debo tener miedo",
+				"que materias me van a hacer llorar",
+				"cuales son los filtros",
+				"que es lo mas pesado de la carrera",
+				"que materias tienen mas reprobados",
+				"cuales son las materias mas dificiles"
+			],
+			"languageCode": "es",
+			"userInformation": "",
+			"prompt": ""
+		},
+		{
+			"content": [
+				{
+					"message": "¡Llegamos a la mejor parte de ser un Chico ISTII! 🐺🚀 El momento de salir a la cancha.\n\nTanto las Prácticas Profesionales como el Servicio Social son experiencias reales que realizas en la etapa final de tu carrera. Para arrancar con cualquiera de las dos, el único requisito clave es tener el 70% de tus créditos completados (¡así que a pasar esas materias!).\n\nSon la oportunidad perfecta para:\n\n🛠️ Aplicar lo aprendido: Resolver problemas de verdad fuera del salón de clases.\n\n🤝 Hacer contactos: Conocerás ingenieros, gerentes y reclutadores de la industria.\n\n💼 ¡Conseguir empleo! Muchos hacen sus prácticas en las empresas de la zona y logran que los contraten incluso antes de graduarse.\n\n¡Es el escenario ideal para que demuestres todo tu talento! 😎\n\n¿Te gustaría saber más sobre las opciones de titulación para cuando termines todo esto, o prefieres regresar a ver el plan de estudios?"
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "practicas y ss",
+			"trainingPhrases": [
+				"me pagan en las practicas",
+				"donde hago las practicas",
+				"requisitos para el servicio social",
+				"cuando puedo hacer mis practicas",
+				"de que trata el servicio social",
+				"como son las practicas profesionales"
+			],
+			"languageCode": "es",
+			"userInformation": "",
+			"prompt": ""
+		},
+		{
+			"content": [
+				{
+					"message": "¡Agárrate fuerte, Chico ISTII! 🐺 Porque nuestra carrera es de las más completas que vas a encontrar en el mundo de la ingeniería.\n\nISTII abarca varias áreas de conocimiento que te forman como un profesional de alto nivel, capaz de crear soluciones increíbles. Vas a sumergirte en mundos como:\n\n📱 Aplicaciones Web y Móviles: Desde el código hasta la pantalla de tu celular.\n🕶️ Realidad Aumentada y Realidad Virtual: ¡Imagina crear tus propios entornos 3D o apps interactivas que mezclen el mundo real con el digital!\n🤖 Inteligencia Artificial: Dándole 'cerebro' a las máquinas (para que crees tus propios asistentes virtuales, por ejemplo).\n👁️ Visión por Computadora: Enseñando a los sistemas a 'ver' y reconocer imágenes.\n☁️ Cómputo en la Nube: Donde vive la tecnología de hoy.\n🕵️ Cómputo Forense: Resolviendo misterios y rastreando datos como un detective digital.\n🌐 Redes de Computadoras: Conectando infraestructuras a nivel global.\n📊 Ciencia de Datos: Convirtiendo números en oro para las empresas.\n\nBásicamente, ¡tendrás el poder de construir el futuro! 😎🚀\n\n¿Cuál de todas estas áreas te emociona más o prefieres que revisemos cómo son las Prácticas Profesionales?"
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "areas de conocimiento",
+			"trainingPhrases": [
+				"en que areas me voy a hacer experto",
+				"de que tratan las materias de la carrera",
+				"que temas principales voy a ver",
+				"cuales son las especialidades",
+				"que ramas de la tecnologia abarca",
+				"cuales son las areas de conocimiento"
+			],
+			"languageCode": "es",
+			"userInformation": "",
+			"prompt": ""
+		},
+		{
+			"content": [
+				{
+					"message": "¡Esa es la meta final, Chico ISTII! 🐺🎓 Coronar todo tu esfuerzo. En nuestra carrera tenemos varias rutas para que te titules según tu estilo:\n\n🏆 Titulación Automática: Si eres un crack, mantienes un promedio de 8.5 o más y no repruebas ninguna materia, ¡el título es tuyo casi en automático!\n📝 Examen EGEL-CENEVAL: Te preparas, presentas este examen nacional y con un resultado satisfactorio, ya estás del otro lado.\n💡 Tesis o Tesina: Ideal si te gusta crear. Desarrollas un proyecto tecnológico increíble (¡imagínate armar un videojuego, una skill para asistentes de voz o tu propia app!) y lo defiendes ante un jurado.\n💼 Reporte Técnico: Si durante tus prácticas te quedas trabajando en una empresa, puedes titularte demostrando tu experiencia y los proyectos reales que ya aplicas en la industria.\n\n¡Siempre hay una opción que se adapta perfectamente a ti! 😎\n\n¿Quieres que regresemos a ver las áreas de conocimiento o prefieres que te dé un consejo para tu primer día?"
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "titulacion",
+			"trainingPhrases": [
+				"es obligatorio hacer tesis",
+				"que necesito para graduarme",
+				"me puedo titular por promedio",
+				"medios para titularse",
+				"opciones de titulacion",
+				"como me titulo"
+			],
+			"languageCode": "es",
+			"userInformation": "",
+			"prompt": ""
+		},
+		{
+			"content": [
+				{
+					"message": "Imagina que la carrera es como un videojuego y los créditos son tus Puntos de Experiencia (XP). 🎮\n\n1. Cada vez que apruebas una materia, ganas una cantidad de créditos. Por lo general, cada materia vale entre 3 y 5 créditos.\n\n2. Las materias más pesadas o que requieren más horas de práctica (como Programación o Matemáticas) te dan el máximo de 'puntos' (5 créditos), mientras que otras más teóricas te dan 3 o 4.\n\n3. Para poder graduarte y ser un ingeniero hecho y derecho, necesitas completar tu nivel máximo: ¡juntar 276 créditos en total! 🏆\n\nBásicamente, ¡es la forma de medir cuánto has avanzado en tu camino hacia el éxito! 🚀\n\n¿Te gustaría saber cuáles son las materias que te dan más XP (créditos) o prefieres que hablemos de las prácticas profesionales"
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "creditos",
+			"trainingPhrases": [
+				"cuantos creditos necesito en total",
+				"que significa que una materia tenga creditos",
+				"como funcionan los creditos",
+				"para que sirven los creditos",
+				"que son los creditos de las materias",
+				"que es un credito"
+			],
+			"languageCode": "es",
+			"userInformation": "",
+			"prompt": ""
+		},
+		{
+			"content": [
+				{
+					"message": "¡Nuestra base de operaciones está increíble, futuro Chico ISTII! 🐺📍\n\nEstudiamos en el Campus San José Chiapa, justo en el corazón de Ciudad Modelo (¡que ya sabes que será la Ciudad de la Tecnología y la Sustentabilidad!).\n\nOlvídate de las escuelas tradicionales en medio del tráfico de la ciudad. Aquí tenemos:\n\n💻 Laboratorios equipados: Donde la magia ocurre. Desde programar hasta armar proyectos de Realidad Virtual e Inteligencia Artificial.\n\n🌳 Espacios modernos: Instalaciones de primer nivel, biblioteca, áreas verdes y lugares para echar el código a gusto con tus compañeros.\n\n🏭 El mejor entorno: Literamente, asomas la cabeza y ves a gigantes como Audi. ¡Se respira industria y tecnología por todos lados! Además, queda súper céntrico si vienes de la región (¡hasta de Huamantla llegas rapidísimo!).\n\nEs un campus diseñado para que te concentres en innovar y crear. 🚀\n\n¿Te gustaría saber cómo llegar al campus o prefieres que hablemos sobre el ambiente y las actividades extra que armamos?"
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "el campus esta chido",
+			"trainingPhrases": [
+				"el campus esta chido",
+				"donde esta san jose chiapa",
+				"como estan las instalaciones",
+				"que hay en ciudad modelo",
+				"donde voy a estudiar",
+				"como es la escuela"
+			],
+			"languageCode": "es",
+			"userInformation": "",
+			"prompt": ""
+		},
+		{
+			"content": [
+				{
+					"message": "¡Vámonos desde Puebla, futuro Chico ISTII! 🐺🚌 Tienes estas opciones principales para llegar a nuestra base:\n\n🌋 Desde la Capital (CAPU) o cerca: Toma los camiones de la línea VIA en ruta directa a Ciudad Modelo (aprox. $60 pesos).\n🌋 Zona Sur Oeste (Amozoc, Tepeaca, Nopalucan, etc.): Toma el VIA hacia Rafael Lara Grajales o Ciudad Modelo (aprox. $45 pesos).\n🌋 Zona Norte Oriental (Oriental, El Seco, Soltepec): Hay un VIA directo de ida y regreso con horarios fijos (6:00 am y 2:30 pm) por aprox. $50 pesos.\n\n💡 Tip de la manada: Si algún día te pierdes, solo llega al parque de Rafael Lara Grajales. Ahí siempre hay transporte directo al campus por $8 pesitos. 😎\n\n¡Ponte audífonos y disfruta el viaje! 🚀 ¿Tienes alguna otra duda o checamos el plan de estudios?"
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "Puebla",
+			"trainingPhrases": [
+				"tepeaca",
+				"san jose chiapa",
+				"amozoc",
+				"como llego si soy de puebla",
+				"transporte de puebla a la buap",
+				"ruta desde la capu",
+				"camiones en puebla para ciudad modelo",
+				"como ir desde puebla"
+			],
+			"languageCode": "es",
+			"userInformation": "",
+			"prompt": ""
+		},
+		{
+			"content": [
+				{
+					"message": "¡Excelente pregunta, futuro Chico ISTII! 🐺📍 Para darte la ruta exacta como un buen GPS, necesito saber tu punto de partida.\n\nComo tenemos manada que viaja de diferentes lados, el camino depende mucho de dónde vengas.\n\n¿Podrías decirme de dónde eres o desde dónde nos visitas? Normalmente los chicos vienen del lado de Puebla o del lado de Tlaxcala (como nuestros compañeros de Huamantla o Cuapiaxtla). 🗺️🚌\n\nEscribe tu estado o municipio para pasarte el mapa completo."
+				},
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "11",
+						"payload": [
+							{
+								"name": "Puebla",
+								"action": {
+									"type": "quickReply",
+									"message": "Puebla"
+								},
+								"replyMetadata": {
+									"KM_TRIGGER_EVENT": "Puebla"
+								}
+							}
+						]
+					}
+				},
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "11",
+						"payload": [
+							{
+								"name": "Tlaxcala",
+								"action": {
+									"type": "quickReply",
+									"message": "Tlaxcala"
+								},
+								"replyMetadata": {
+									"KM_TRIGGER_EVENT": "Tlaxcala"
+								}
+							}
+						]
+					}
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "rutas para la universidad",
+			"trainingPhrases": [
+				"rutas para la universidad",
+				"como llego a ciudad modelo",
+				"por donde me voy a ciudad modelo",
+				"hay rutas para ir a la escuela",
+				"como esta lo del transporte",
+				"que camion tengo que tomar",
+				"como le hago para llegar",
+				"como llego al campus"
+			],
+			"languageCode": "es",
+			"userInformation": "",
+			"prompt": ""
+		},
+		{
+			"content": [
+				{
+					"message": "¡Qué bien que te unas a la manada desde tan lejos, Chico ISTII! 🐺✈️\n\nSi vienes de otro estado, mi mejor consejo de ingeniería es: ¡Renta cerca del campus! Viajar diario desde muy lejos puede ser pesado y aquí lo que queremos es que tengas energía para innovar.\n\nLas mejores opciones para vivir son:\n\n🏙️ Ciudad Modelo: Estarás a unos pasos de los salones y laboratorios. Es lo más cómodo.\n\n🏠 Rafael Lara Grajales o San José Chiapa: Son los municipios vecinos donde vive gran parte de la comunidad universitaria. Hay muchas opciones de rentas para estudiantes y un ambiente muy padre.\n\n🚌 ¿Cómo llegar para conocer?\nSi vienes llegando a la ciudad, lo más fácil es llegar a la CAPU (Puebla). De ahí salen los autobuses VIA que te llevan directo a Grajales o Ciudad Modelo.\n\n¿Te gustaría que te cuente más sobre el Campus o prefieres ver las áreas de conocimiento en las que te vas a especializar? 🚀"
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "otro estado",
+			"trainingPhrases": [
+				"Qué pasa si no soy de Puebla o Tlaxcala",
+				"Vivo muy lejos",
+				"Soy foráneo",
+				"Vengo de Veracruz / Hidalgo / CDMX",
+				"Soy de otro estado"
+			],
+			"languageCode": "es",
+			"userInformation": "",
+			"prompt": ""
+		},
+		{
+			"content": [
+				{
+					"message": "¡Órale! 🚀 No sabía que la fama de los Chicos ISTII ya había llegado hasta allá. ¡Bienvenido a la Tierra! 🌎🐺\n\nMira, aunque todavía no tenemos ruta del Lobobús interespacial ni portales mágicos directos a Ciudad Modelo, te cuento cómo le hacemos los humanos:\n\n🛸 Si vienes en nave o escoba: Tu mejor punto de aterrizaje es la CAPU en Puebla. De ahí, toma un autobús VIA que te deje en Rafael Lara Grajales.\n🌌 Consejo de otra galaxia: Como el viaje entre dimensiones está pesado, lo mejor es que rentes una casa en Ciudad Modelo o San José Chiapa. ¡Te vas a ahorrar muchísimos años luz de camino!\n🧪 Dato Pro: Aquí en la carrera de ISTII vemos Inteligencia Artificial y Realidad Virtual, así que te sentirás como en casa con tanta tecnología.\n\n¿Quieres que revisemos el plan de estudios para que veas qué tecnología terrícola te falta aprender o prefieres ver las áreas de conocimiento? 🤖✨"
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "otro mundo",
+			"trainingPhrases": [
+				"No soy de este mundo",
+				"Vengo de otra dimensión",
+				"Soy un alien / un elfo / un mago",
+				"Vengo de Hogwarts / Narnia / mundo mágico",
+				"Vengo de Marte / otro planeta / el espacio",
+				"Soy de Júpiter / Namekusei"
+			],
+			"languageCode": "es",
+			"userInformation": "",
+			"prompt": ""
+		},
+		{
+			"content": [
+				{
+					"message": "¡Qué increíble! 🌍✈️ La manada de los Chicos ISTII no tiene fronteras. ¡Bienvenido a México y a la BUAP!\n\nPara que tu aterrizaje en Ciudad Modelo sea perfecto, toma nota de estos puntos clave:\n\n📜 Papeles en regla: Al ser extranjero, necesitarás revalidar tus estudios previos ante la SEP y tener tu documentación migratoria vigente. ¡Checa la convocatoria de 'Admisión para Extranjeros' en la página de la BUAP!\n🏠 Vivir la experiencia: Al venir de tan lejos, lo más inteligente es rentar en Ciudad Modelo o San José Chiapa. Estarás a minutos de tus clases y laboratorios, ideal para enfocarte en la ingeniería.\n🚌 Tu llegada: Seguramente aterrizarás en el Aeropuerto de la CDMX o de Puebla. Tu misión es llegar a la CAPU (Central de Autobuses de Puebla) y de ahí tomar un camión VIA directo a nuestra sede.\n\n¡Aquí en ISTII vas a encontrar tecnología de punta en Inteligencia Artificial y Cómputo en la Nube que se usa en todo el mundo! 🚀\n\n¿Quieres que te cuente más sobre las áreas de conocimiento o prefieres que revisemos el plan de estudios? 🐺💻"
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "otro pais",
+			"trainingPhrases": [
+				"vengo de otro pais",
+				"No soy mexicano",
+				"¿Aceptan alumnos internacionales?",
+				"Quiero estudiar en México pero vivo fuera",
+				"Soy extranjero",
+				"Vengo de Colombia / España / Argentina / USA",
+				"Soy de otro país"
+			],
+			"languageCode": "es",
+			"userInformation": "",
+			"prompt": ""
+		},
+		{
+			"content": [
+				{
+					"message": "¡Órale! No conocía ese lugar, pero qué chido que la manada de los Chicos ISTII se extienda por todos lados. 🐺📍\n\nMira, para no errarle con el GPS, lo más importante es que sepas esto:\n\n🏁 Tu objetivo es llegar a la CAPU (Puebla) o a Grajales. > Casi desde cualquier municipio o estado, siempre hay transporte que te deja en la Central de Autobuses de Puebla. De ahí, tomas un VIA directo a nuestra sede en Ciudad Modelo.\n\n🏠 Dato importante: Si tu municipio está a más de una hora de camino, ¡ni le pienses! Lo mejor es que rentes en Ciudad Modelo o San José Chiapa. Así tendrás más tiempo para darle al código y menos tiempo en el camión. 🚌💻\n\n¿Te gustaría que revisemos el plan de estudios o prefieres saber qué áreas de conocimiento vas a dominar aquí?"
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "municipios raros",
+			"trainingPhrases": [
+				"vengo de san juan ",
+				"soy de una comunidad lejana",
+				"vengo de un municipio lejos",
+				"Vengo de una comunidad pequeña",
+				"Soy de Sonora",
+				"Vengo de [Nombre de lugar]",
+				"Soy de un pueblo lejos",
+				"Vengo de Xicotepec",
+				"Soy de Chignahuapan"
+			],
+			"languageCode": "es",
+			"userInformation": "",
+			"prompt": ""
+		},
+		{
+			"content": [
+				{
+					"message": "¡De Tlaxcala para el mundo, futuro Chico ISTII! 🐺🌲 Así llegamos a la base tecnológica:\n\n🌲 Desde Huamantla: ¡Tenemos transporte VIP! Hay un autobús ADO exclusivo para estudiantes con horarios fijos (7:00 am y 3:00 pm) por unos $40 pesos. O si prefieres, puedes tomar las combis verdes afuera de Bodega Aurrera hacia Grajales ($18) y de ahí al campus ($8).\n🌲 Desde Cuapiaxtla: Lánzate a Grajales ($12 aprox) y en el parque tomas la combi directa al campus por $8 pesitos.\n\n💡 Tip de la manada: El municipio de Rafael Lara Grajales es tu punto de rescate. Desde su parque salen combis todo el tiempo directo a nuestro campus. 😎\n\n¡Nos vemos en los laboratorios! 💻 ¿Te ayudo con algo más sobre la carrera?"
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "Tlaxcala",
+			"trainingPhrases": [
+				"transporte de huamantla a la buap",
+				"como llego si soy de tlaxcala",
+				"ixtenco",
+				"ruta desde la ixtenco",
+				"como ir desde cuapiaxtla",
+				"camiones en cuapiaxtla para ciudad modelo",
+				"camiones en huamantla para ciudad modelo",
+				"como ir desde apizaco",
+				"como ir desde Tlaxcala",
+				"como ir desde huamantla"
+			],
+			"languageCode": "es",
+			"userInformation": "",
+			"prompt": ""
+		},
+		{
+			"content": [
+				{
+					"message": "¡Claro que sí, Chico ISTII! ✨ Aquí tienes los datos directos para que no des vueltas y vayas a la segura con tus trámites:\n\n📍 Ubicación: > Blvd. Audi Sur, Ciudad Modelo, San José Chiapa, Puebla. (¡Estamos justo en el corazón tecnológico!)\n\n📞 Teléfono de contacto:\n+52 (222) 229 5500 ext. 1510\n\n📧 Correo electrónico: > serviciosescolarescentro.dae@correo.buap.mx\n\n⏰ Horarios de atención:\nLunes a viernes de 07:00 a 16:00 hrs. >\n💡 Tip de la manada: Si vas a ir de forma presencial, te recomiendo llegar temprano para que salgas rápido y tengas tiempo de conocer los laboratorios. 🚀\n\n¿Te gustaría que te ayude a ver cómo llegar desde la CAPU o prefieres revisar las áreas de conocimiento de la carrera?"
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "ubicacion de ciudad modelo",
+			"trainingPhrases": [
+				"ubicacion de ciudad modelo",
+				"horarios de atencion",
+				"como contacto a servicios escolares",
+				"donde estan las oficinas",
+				"cual es el correo de la escuela",
+				"a que hora abren",
+				"pasame el telefono",
+				"cual es la direccion"
+			],
+			"languageCode": "es",
+			"userInformation": "",
+			"prompt": ""
+		},
+		{
+			"content": [
+				{
+					"message": "¡Excelente pregunta! 🐺⏰ En la manada de los Chicos ISTII nos organizamos súper bien con el tiempo.\n\nEl horario escolar está diseñado pensando 100% en tu seguridad y en el transporte. Por eso, las clases y actividades son:\n\n🌅 Entrada mínima: 08:00 hrs.\n\n🌇 Salida máxima: 15:00 hrs. (3:00 PM).\n\n¿Por qué este horario? 🚌💨 Lo hacemos así para que todos alcancen sus rutas de transporte de regreso (como el VIA o el ADO a Huamantla) y lleguen a sus casas o lugares de renta a buena hora. ¡Aquí nadie se queda fuera de la jugada!\n\nAsí tienes toda la tarde libre para adelantar proyectos, ir al gimnasio o simplemente descansar. 😎\n\n¿Te gustaría que revisemos cómo están las rutas de transporte o prefieres ver la dirección y contacto de la escuela?"
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "horario",
+			"trainingPhrases": [
+				"a que hora pasan los camiones",
+				"horarios de clases istii",
+				"cual es el horario escolar",
+				"hay turno vespertino",
+				"de que hora a que hora es la escuela",
+				"a que hora salen",
+				"cual es el horario de clases",
+				"a que hora entran"
+			],
+			"languageCode": "es",
+			"userInformation": "",
+			"prompt": ""
+		},
+		{
+			"content": [
+				{
+					"message": "¡Buena pregunta! 🐺✨ El CRC significa Complejo Regional Centro de la BUAP.\n\nBásicamente, es una unidad académica diseñada por nuestra universidad para descentralizar la educación. En lugar de que todos tengan que ir a Puebla capital, la BUAP trae toda su calidad y tecnología a las regiones del estado. 🚀\n\nEn el caso de ISTII, somos parte del orgullo del CRC en Ciudad Modelo. Esto significa que:\n\n✅ Tienes el mismo nivel académico que en cualquier otra sede de la BUAP.\n\n✅ Tu título es oficial y tiene todo el respaldo de nuestra máxima casa de estudios.\n\n✅ Estamos ubicados estratégicamente para que la región centro (Puebla y Tlaxcala) tenga a los mejores ingenieros cerca de la industria. 🏭💻\n\n¡Somos la manada que está transformando la tecnología desde el corazón del estado!\n\n¿Te gustaría saber en qué municipios vive la mayoría de los chicos o prefieres ver el horario escolar?"
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "crc",
+			"trainingPhrases": [
+				"que es el complejo regional centro",
+				"la escuela es parte de la buap",
+				"porque estamos en san jose chiapa",
+				"es la buap de puebla",
+				"que es un complejo regional",
+				"que significa crc",
+				"que es el crc"
+			],
+			"languageCode": "es",
+			"userInformation": "",
+			"prompt": ""
+		},
+		{
+			"content": [
+				{
+					"message": "No somos una escuela incorporada, somos orgullosamente BUAP. 🐺🎓\n\nTe explico la diferencia:\n\n1. 100% Oficial: Somos un Complejo Regional propio de la universidad. Esto significa que eres un alumno con todos los derechos, igual que alguien de CU o el CCU.\n\n2. Tu Título: Al graduarte, tu título es expedido directamente por la Benemérita Universidad Autónoma de Puebla. ¡Tiene el mismo peso y prestigio en cualquier parte del mundo!\n\n3. Mismos Beneficios: Tienes acceso a becas, seguro facultativo, intercambios, bibliotecas digitales y eventos culturales/deportivos de toda la institución.\n\nBásicamente, tienes la calidad y el respaldo de la máxima casa de estudios del estado. 😎 ¿Te gustaría saber qué materias llevarás o prefieres conocer las becas a las que tienes derecho?\""
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "validez buap",
+			"trainingPhrases": [
+				"son incorporados",
+				"su titulo vale lo mismo que el de cu",
+				"es una escuela oficial",
+				"son parte de la buap",
+				"son parte de la buap o solo estan incorporados",
+				"son una escuela privada",
+				"el titulo sale como buap",
+				"tienen validez oficial",
+				"son escuela incorporada"
+			],
+			"languageCode": "es",
+			"userInformation": "",
+			"prompt": ""
+		},
+		{
+			"content": [
+				{
+					"message": "¡Claro que sí! 🐺📱 Síguenos para que veas todo lo que hacemos, los laboratorios y cómo es la vida de un Chico ISTII. ¡Aquí tienes el 'follow' directo!\n\n🏛️ Del Complejo Regional:\n\nFacebook: Complejo Regional Centro Sede San Jose Chiapa\n🚀 De nuestra carrera (ISTII):\n\nInstagram: @istiisanjosechiapa\n\nTikTok: @istiisanjosechiapa\nFacebook: ISTII San Jose Chiapa\n\n¡Etiquétanos en tus historias cuando vengas a conocer el campus! 📸✨\n\n¿Quieres que te pase el contacto y ubicacion oficial o prefieres ver las areas de conocimiento?"
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "redes sociales",
+			"trainingPhrases": [
+				"como los busco en redes",
+				"pagina de facebook de san jose chiapa",
+				"redes sociales de istii",
+				"donde hay fotos de la carrera",
+				"pasame el tik tok",
+				"tienen instagram",
+				"tienen facebook",
+				"cuales son sus redes sociales"
+			],
+			"languageCode": "es",
+			"userInformation": "",
+			"prompt": ""
+		},
+		{
+			"content": [
+				{
+					"message": "¡Uff, prepárate, porque en el campus se come delicioso! 🐺🍔\n\nPara recargar energías, contamos con 2 cafeterías y te prometo que las dos son buenísimas. 🤤\n✨ Dato Pro: Una de ellas acaba de ser remodelada, así que las instalaciones quedaron de lujo para que disfrutes tu break entre clases.\n\n🍱 Becas Alimenticias: ¡Lo mejor de todo! Estas cafeterías son las que proveen las Becas Alimenticias. Si resultas beneficiado con la beca, ahí es donde canjeas tus alimentos diarios.\n\nYa sea por la beca o por antojo, ¡siempre vas a encontrar algo rico para seguir dándole al código! 🚀\n\n¿Quieres que te cuente más sobre el horario escolar para saber a que hora es el break o prefieres ver las redes sociales?"
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "comidahay cafeteria",
+			"trainingPhrases": [
+				"que tal estan las cafeterias",
+				"venden comida en la buap san jose",
+				"como funciona la beca alimenticia",
+				"hay becas de comida",
+				"esta rica la comida",
+				"donde se come en el campus",
+				"que puedo comer en la escuela",
+				"hay cafeteria"
+			],
+			"languageCode": "es",
+			"userInformation": "",
+			"prompt": ""
+		},
+		{
+			"content": [
+				{
+					"message": "🐺🥖 Si tienes hambre, las cafeterías tienen de todo para que no te quedes con el antojo.\n\nEn el menú vas a encontrar lo clásico y lo más pedido por la manada:\n\n🥪 ¡Claro que hay tortas! Son las salvadoras de los recreos.\n\n🍳 Desayunos: Chilaquiles, huevos al gusto y molletes para empezar el día con todo.\n\n🍛 Comida corrida: Menú completo para los que se quedan hasta tarde.\n\n🌭 Snacks: Hot dogs, hamburguesas, sincronizadas y fruta para algo más ligero.\n\n¡Hay de todo y para todos los gustos! Además, recuerda que si tienes la beca alimenticia, el menú es súper balanceado para que aguantes las clases de programación. 💻🍎\n\n¿Te gustaría saber el horario escolar para ver a que hora es el receso o prefieres ver las redes sociales?"
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "que comida hay",
+			"trainingPhrases": [
+				"venden desayunos",
+				"hay comida corrida",
+				"venden dulces o snacks",
+				"que comida hay",
+				"venden chilaquiles",
+				"que venden en la cafeteria",
+				"hay tortas",
+				"que venden de comer"
+			],
+			"languageCode": "es",
+			"userInformation": "",
+			"prompt": ""
+		},
+		{
+			"content": [
+				{
+					"message": "Te escucho fuerte y claro! 🐺 A veces el modo Chico ISTII necesita un pequeño 'reboot' o un descanso.\n\nMira, sea lo que sea que estés pasando ahorita, recuerda que todo es parte de la experiencia en el campus. Si necesitas un break, ¡tómalo! Pero no te distraigas mucho, que el futuro de la tecnología no se va a construir solo. 😉🚀\n\nPara que te animes un poco, ¿qué tal si checamos algo de la carrera? Te puedo contar sobre:\n\n🎓 El plan de estudios (para que veas que falta poco).\n\n🍟 Lo que venden en las cafeterias (por si es hambre).\n\n🚌 Los horarios (para que veas a que hora sales).\n\n¿En qué te puedo ayudar para que sigas al 100 con la manada?"
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "frases fuera de lugar",
+			"trainingPhrases": [
+				"quiero ir al cine",
+				"quiero ir al cijne",
+				"voy a salir a correr",
+				"voy a lavar",
+				"que voy a comer hoy",
+				"cuentame un chiste",
+				"estoy aburrido",
+				"quiero jugar futbol",
+				"me quiero ir a mi casa",
+				"me duele el pie",
+				"me duele el corazon",
+				"me siento mal",
+				"tengo sueño",
+				"tengo hambre"
+			],
+			"languageCode": "es",
+			"userInformation": "",
+			"prompt": ""
+		},
+		{
+			"content": [
+				{
+					"message": "¡Oye! Me encantaría poder ayudarte con eso, pero por ahora mi sistema solo está programado para darte toda la información sobre la carrera y el campus. 🐺💻\n\nSoy experto en guiar a la manada de los Chicos ISTII, pero no tengo acceso a otras apps o funciones de tu dispositivo.\n\n¿Qué te parece si mejor te ayudo con algo que sí domino? Te puedo dar información sobre:\n\n📚 El plan de estudios\n\n🚌 Los horarios\n\n📍 La ubicacion del campus\n\n¿Que prefieres revisar ahora?"
+				}
+			],
+			"urlPatternList": [],
+			"category": "intent",
+			"name": "comandos fuera de lugar",
+			"trainingPhrases": [
+				"quiero saber sobre rauw alejandro",
+				"quiero que me enseñes musica en tendencia",
+				"abre hbo mas",
+				"abre netflic",
+				"quiero ver la cartelera del cine",
+				"manda un mensaje",
+				"toma una foto",
+				"busca en youtube",
+				"llama a alguien",
+				"baila",
+				"pon un video",
+				"abre facebook",
+				"cantame",
+				"pon musica",
+				"abre spotify",
+				"quiero que abras una aplicacion",
+				"abre el navegador"
+			],
+			"languageCode": "es",
+			"userInformation": "",
+			"prompt": ""
+		},
+		{
+			"content": [
+				{
+					"message": "¡Huy, una disculpa! 🐺🙏 Todavía estoy aprendiendo algunas cosas y esa respuesta no la tengo en mi base de datos. ¡Perdóname por fallarte esta vez!\n\nPero no te preocupes, como buen Chico ISTII, ¡siempre busco una solución! 🚀\n\nMientras tanto, ¿te gustaría que revisemos algo que sí conozco a fondo?\n\n📚 El plan de estudios\n\n🚌 Los horarios y transporte\n\n🍟 Lo que venden en las cafeterias\n\n¿Que otra duda te puedo resolver?"
+				}
+			],
+			"urlPatternList": [],
+			"category": "fallback_intent",
+			"name": "Default Fallback Intent",
+			"trainingPhrases": [],
+			"languageCode": "es",
+			"userInformation": "",
+			"prompt": ""
+		}
+	],
+	"webhooks": {},
+	"functions": {},
+	"languageCodes": [
+		"es"
+	],
+	"contextEnabled": true,
+	"aiPlatform": "gemini",
+	"model": {
+		"name": "gemini-2.0-flash",
+		"maxTokens": 1000,
+		"temperature": 0
+	},
+	"dynamicPromptsSettings": {
+		"isPromptEnable": true,
+		"promptTone": "Professional",
+		"promptInstructions": "",
+		"promptLength": "",
+		"promptRole": ""
+	},
+	"openAIIntegrationType": 0,
+	"functionAPIGateway": {
+		"url": "https://dvdvkhbswg.execute-api.us-east-1.amazonaws.com/default/AgentInline",
+		"version": "prod_v1"
+	}
+}
