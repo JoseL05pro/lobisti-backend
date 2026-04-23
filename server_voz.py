@@ -34,17 +34,9 @@ app.add_middleware(
 #  CONFIGURACION DE VOZ
 # ════════════════════════════════════════════════════════════════
 
-# Voces disponibles en español mexicano (Edge TTS):
-#   es-MX-DaliaNeural    → mujer mexicana (natural)
-#   es-MX-JorgeNeural    → hombre mexicano (natural)
-#   es-MX-LibertoNeural  → hombre mexicano joven
-#   es-MX-NuriaNeural    → mujer mexicana joven
-#   es-MX-PelayoNeural   → hombre mexicano
-#   es-MX-RenataNeural   → mujer mexicana
-
-VOZ = "es-MX-JorgeNeural"       # Cambia aqui la voz
-VELOCIDAD = "+15%"               # +10%, +20%, -10%, etc.
-TONO = "+0Hz"                    # +5Hz, -5Hz, etc.
+VOZ = "es-MX-JorgeNeural" 
+VELOCIDAD = "+15%"
+TONO = "+0Hz"
 
 # ════════════════════════════════════════════════════════════════
 #  INTENTS
@@ -138,28 +130,10 @@ def match_intent(user_message: str) -> dict:
 # ════════════════════════════════════════════════════════════════
 
 def strip_emojis(text: str) -> str:
-    emoji_pattern = re.compile(
-        "["
-        "\U0001F600-\U0001F64F"
-        "\U0001F300-\U0001F5FF"
-        "\U0001F680-\U0001F6FF"
-        "\U0001F1E0-\U0001F1FF"
-        "\U00002702-\U000027B0"
-        "\U000024C2-\U0001F251"
-        "\U0001f926-\U0001f937"
-        "\U00010000-\U0010ffff"
-        "\u2640-\u2642"
-        "\u2600-\u2B55"
-        "\u200d"
-        "\u23cf"
-        "\u23e9"
-        "\u231a"
-        "\ufe0f"
-        "\u3030"
-        "]+",
-        flags=re.UNICODE,
-    )
-    return emoji_pattern.sub("", text).strip()
+    """Quita TODOS los caracteres no-ASCII para evitar errores con Edge TTS."""
+    limpio = re.sub(r'[^\w\s.,;:!?¿¡()\-áéíóúüñÁÉÍÓÚÜÑ]', '', text)
+    limpio = re.sub(r'\s+', ' ', limpio).strip()
+    return limpio
 
 
 def transcribir_audio(audio_bytes: bytes) -> str:
@@ -203,20 +177,33 @@ async def generar_audio_respuesta(texto: str) -> bytes:
         return AUDIO_CACHE[texto_limpio]
 
     # Generar con Edge TTS
-    communicate = edge_tts.Communicate(
-        text=texto_limpio,
-        voice=VOZ,
-        rate=VELOCIDAD,
-        pitch=TONO,
-    )
+    try:
+        communicate = edge_tts.Communicate(
+            text=texto_limpio,
+            voice=VOZ,
+            rate=VELOCIDAD,
+            pitch=TONO,
+        )
 
-    buffer = io.BytesIO()
-    async for chunk in communicate.stream():
-        if chunk["type"] == "audio":
-            buffer.write(chunk["data"])
+        buffer = io.BytesIO()
+        async for chunk in communicate.stream():
+            if chunk["type"] == "audio":
+                buffer.write(chunk["data"])
 
-    buffer.seek(0)
-    audio_final = buffer.read()
+        buffer.seek(0)
+        audio_final = buffer.read()
+
+        if not audio_final:
+            raise Exception("Edge TTS no genero audio")
+
+    except Exception as e:
+        print(f"[Lobisti] Error Edge TTS: {e}, usando gTTS como fallback")
+        from gtts import gTTS
+        tts = gTTS(text=texto_limpio, lang="es", tld="com.mx", slow=False)
+        fallback_buffer = io.BytesIO()
+        tts.write_to_fp(fallback_buffer)
+        fallback_buffer.seek(0)
+        audio_final = fallback_buffer.read()
 
     print(f"[Lobisti] Audio generado con {VOZ} ({len(audio_final)} bytes)")
 
@@ -253,7 +240,18 @@ async def procesar_voz(file: UploadFile = File(...)):
         print(f"[Lobisti] '{texto_usuario}' -> {intent_name} ({confidence})")
 
     print(f"[Lobisti] Generando voz: {texto_respuesta[:80]}...")
-    audio_respuesta = await generar_audio_respuesta(texto_respuesta)
+
+    try:
+        audio_respuesta = await generar_audio_respuesta(texto_respuesta)
+    except Exception as e:
+        print(f"[Lobisti] Error generando audio: {e}")
+        from gtts import gTTS
+        texto_limpio = strip_emojis(texto_respuesta)
+        tts = gTTS(text=texto_limpio or "Error al generar audio", lang="es", tld="com.mx", slow=False)
+        fallback_buffer = io.BytesIO()
+        tts.write_to_fp(fallback_buffer)
+        fallback_buffer.seek(0)
+        audio_respuesta = fallback_buffer.read()
 
     texto_limpio = strip_emojis(texto_respuesta).replace("\n", " ").strip()
     headers = {
@@ -291,18 +289,20 @@ async def health():
 
 
 # ════════════════════════════════════════════════════════════════
-#  MAIN
+#  CARGAR INTENTS AL IMPORTAR (para Render/uvicorn)
+# ════════════════════════════════════════════════════════════════
+
+_json_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "intents.json")
+if os.path.exists(_json_path) and not INTENTS:
+    load_intents(_json_path)
+    print(f"[Lobisti] Voz: {VOZ}")
+
+
+# ════════════════════════════════════════════════════════════════
+#  MAIN (para correr local)
 # ════════════════════════════════════════════════════════════════
 
 if __name__ == "__main__":
-    json_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "intents.json")
-    if not os.path.exists(json_path):
-        print(f"[ERROR] No se encontro '{json_path}'")
-        print("[INFO] Coloca tu JSON como 'intents.json' en esta carpeta.")
-        exit(1)
-
-    load_intents(json_path)
-    print(f"[Lobisti] Voz: {VOZ}")
     print("[Lobisti] Servidor de VOZ iniciando en http://localhost:8000")
     print("[Lobisti] Endpoint: POST http://localhost:8000/procesar_voz/")
     print("[Lobisti] Endpoint texto: POST http://localhost:8000/chat")
