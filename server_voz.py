@@ -2,6 +2,7 @@
 Lobisti Voice Backend - Python (FastAPI)
 =========================================
 Usa Edge TTS (voces de Microsoft) para voz natural.
+Listo para deploy en Render.
 """
 
 import json
@@ -34,7 +35,7 @@ app.add_middleware(
 #  CONFIGURACION DE VOZ
 # ════════════════════════════════════════════════════════════════
 
-VOZ = "es-MX-JorgeNeural" 
+VOZ = "es-MX-JorgeNeural"
 VELOCIDAD = "+15%"
 TONO = "+0Hz"
 
@@ -288,6 +289,16 @@ async def health():
     return {"status": "ok", "intents": len(INTENTS), "voz": VOZ}
 
 
+@app.get("/")
+async def root():
+    return {
+        "service": "Lobisti Voice API",
+        "status": "ok",
+        "intents": len(INTENTS),
+        "endpoints": ["/health", "/welcome", "/chat", "/procesar_voz/"],
+    }
+
+
 # ════════════════════════════════════════════════════════════════
 #  CARGAR INTENTS AL IMPORTAR (para Render/uvicorn)
 # ════════════════════════════════════════════════════════════════
@@ -299,11 +310,12 @@ if os.path.exists(_json_path) and not INTENTS:
 
 
 # ════════════════════════════════════════════════════════════════
-#  MAIN (para correr local)
+#  MAIN (solo para correr local — Render NO usa esto)
 # ════════════════════════════════════════════════════════════════
 
 if __name__ == "__main__":
-    print("[Lobisti] Servidor de VOZ iniciando en http://localhost:8000")
-    print("[Lobisti] Endpoint: POST http://localhost:8000/procesar_voz/")
-    print("[Lobisti] Endpoint texto: POST http://localhost:8000/chat")
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    port = int(os.environ.get("PORT", 8000))
+    print(f"[Lobisti] Servidor de VOZ iniciando en http://localhost:{port}")
+    print(f"[Lobisti] Endpoint: POST http://localhost:{port}/procesar_voz/")
+    print(f"[Lobisti] Endpoint texto: POST http://localhost:{port}/chat")
+    uvicorn.run(app, host="0.0.0.0", port=port)
